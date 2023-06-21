@@ -10,7 +10,7 @@ function cachingDecoratorNew(func) {
 
         if (objectInCache) {
             console.log("Из кэша: " + objectInCache.result);
-            return "Из кэша: " + objectInCache.result;
+            return " Из кэша: " + objectInCache.result;
         }
 
         let result = func(...args);
